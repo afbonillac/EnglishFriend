@@ -1,0 +1,38 @@
+.message-container {
+  overflow-y: auto; // Agrega una barra de desplazamiento vertical si el contenido es demasiado largo 
+  white-space: pre-line; // Mantiene los saltos de línea en el texto 
+  //position: auto;
+  bottom: 200px;
+}
+
+.list-md {
+  position: fixed;
+  overflow-y: auto;
+  bottom: 200px;
+  white-space: pre-line;
+  min-height: 100px; /* Altura mínima del cuadro de entrada, ajusta según sea necesario */
+  max-height: 400px; /* Altura máxima del cuadro de entrada, ajusta según sea necesario */
+}
+.userInput {
+  width: 100%;
+  min-height: 100px; /* Altura mínima del cuadro de entrada, ajusta según sea necesario */
+  max-height: 200px; /* Altura máxima del cuadro de entrada, ajusta según sea necesario */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical si el contenido es demasiado largo */
+  resize: vertical; /* Permite que el cuadro de entrada se redimensione verticalmente */
+  white-space: pre-line; /* Permite saltos de línea automáticos */
+  position: fixed;
+  bottom: 90px;
+}
+
+.sendButton { 
+  position: fixed;
+  bottom: 20px; /* Puedes ajustar este valor para determinar la distancia del botón desde el borde inferior */
+  left: 50%; /* Centra el botón horizontalmente */
+  transform: translateX(-50%);  /*Centra el botón horizontalmente */
+  background-color: #007bff; /* Color de fondo del botón (puedes cambiarlo según tus preferencias) */
+  color: white; /* Color del texto del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border: none; /* Sin borde */
+  border-radius: 10px; /* Borde redondeado del botón */
+  cursor: pointer; /* Cursor de puntero cuando se pasa sobre el botón */
+}
